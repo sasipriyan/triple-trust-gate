@@ -1,0 +1,22 @@
+{
+  "model": "efficientnet_b0",
+  "device": "cpu",
+  "checkpoint": "C:\\Users\\sasip\\Desktop\\dissertation\\outputs\\baseline\\models\\best_baseline.pt",
+  "split": "test",
+  "total_count": 1503,
+  "pass_count": 1394,
+  "referred_count": 109,
+  "pass_rate": 0.927478376580173,
+  "referral_rate": 0.07252162341982701,
+  "iou_threshold": 0.1,
+  "centroid_threshold": 0.35,
+  "cam_percentile": 80.0,
+  "avg_iou": 0.5792399770411195,
+  "median_iou": 0.6594432548179872,
+  "avg_centroid_distance": 0.060028760138870034,
+  "median_centroid_distance": 0.03193391357106049,
+  "pass_accuracy": 0.8400286944045912,
+  "referred_accuracy": 0.7431192660550459,
+  "mask_source": "pseudo_image_processing",
+  "note": "Official lesion segmentation masks are not present. Replace pseudo masks with ISIC masks for final thesis-grade Gate 3 evaluation."
+}

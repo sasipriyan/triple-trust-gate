@@ -1,0 +1,23 @@
+{
+  "threshold": 0.69,
+  "accepted_count": 1183,
+  "referred_count": 320,
+  "coverage": 0.7870924817032602,
+  "referral_rate": 0.21290751829673982,
+  "accepted_accuracy": 0.9087066779374472,
+  "accepted_precision_macro": 0.8751559763426601,
+  "accepted_recall_macro": 0.8820825539762246,
+  "accepted_f1_macro": 0.8717274510883689,
+  "model": "efficientnet_b0",
+  "device": "cpu",
+  "checkpoint": "C:\\Users\\sasip\\Desktop\\dissertation\\outputs\\baseline\\models\\best_baseline.pt",
+  "mc_samples": 5,
+  "target_accepted_accuracy": 0.9,
+  "test_ece": 0.025618962165283008,
+  "overall_test_accuracy_before_gate": 0.83166999334664,
+  "overall_test_f1_macro_before_gate": 0.7879848980950719,
+  "accepted_correct": 1075,
+  "accepted_incorrect": 108,
+  "referred_correct": 175,
+  "referred_incorrect": 145
+}

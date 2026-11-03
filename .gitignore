@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+outputs/demo_uploads/
+outputs/single_image_predictions/

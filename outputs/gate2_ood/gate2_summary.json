@@ -1,0 +1,51 @@
+{
+  "model": "efficientnet_b0",
+  "device": "cpu",
+  "checkpoint": "C:\\Users\\sasip\\Desktop\\dissertation\\outputs\\baseline\\models\\best_baseline.pt",
+  "score": "minimum cosine distance to class centroid",
+  "target_known_pass_rate": 0.95,
+  "threshold": 0.5560253709554673,
+  "note": "This run uses HAM10000 known-class data only. External OOD data is still needed for AUROC/FPR95.",
+  "train": {
+    "split": "train",
+    "threshold": 0.5560253709554673,
+    "total_count": 7010,
+    "known_count": 6629,
+    "referred_count": 381,
+    "known_pass_rate": 0.9456490727532098,
+    "referral_rate": 0.0543509272467903,
+    "avg_min_centroid_distance": 0.3783258767934056,
+    "median_min_centroid_distance": 0.3829306364059448,
+    "p95_min_centroid_distance": 0.5597683370113371,
+    "known_accuracy": 0.9087343490722583,
+    "referred_accuracy": 0.926509186351706
+  },
+  "validation": {
+    "split": "validation",
+    "threshold": 0.5560253709554673,
+    "total_count": 1502,
+    "known_count": 1426,
+    "referred_count": 76,
+    "known_pass_rate": 0.9494007989347537,
+    "referral_rate": 0.05059920106524634,
+    "avg_min_centroid_distance": 0.3865113776231733,
+    "median_min_centroid_distance": 0.38794881105422974,
+    "p95_min_centroid_distance": 0.5560253709554673,
+    "known_accuracy": 0.8309957924263675,
+    "referred_accuracy": 0.868421052631579
+  },
+  "test": {
+    "split": "test",
+    "threshold": 0.5560253709554673,
+    "total_count": 1503,
+    "known_count": 1413,
+    "referred_count": 90,
+    "known_pass_rate": 0.9401197604790419,
+    "referral_rate": 0.059880239520958084,
+    "avg_min_centroid_distance": 0.3902634380265069,
+    "median_min_centroid_distance": 0.3931884169578552,
+    "p95_min_centroid_distance": 0.5677583634853361,
+    "known_accuracy": 0.8287331917905166,
+    "referred_accuracy": 0.9
+  }
+}
