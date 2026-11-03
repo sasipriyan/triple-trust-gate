@@ -50,7 +50,7 @@ if uploaded is not None:
 
     left, right = st.columns([1, 1])
     with left:
-        st.image(str(image_path), caption="Uploaded image", use_container_width=True)
+        st.image(str(image_path), caption="Uploaded image", width=350)
 
     if st.button("Run Triple Trust-Gate", type="primary"):
         with st.spinner("Running prediction and trust gates..."):
